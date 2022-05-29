@@ -1,0 +1,202 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        height: 100px;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 81, 255, 0.705),rgb(86, 137, 247))
+    }
+    #logobox{
+        width: 30%;
+        height: 100%;
+        float: right;
+        background-color: rgba(255, 255, 255, 0.795);
+    }
+    nav{
+        width: 70%;
+        display: inline-block;
+        text-align: center;
+      
+    }
+    header a{
+        color: black;
+        font-family: 'Amiri', serif;
+        font-family: 'Noto Nastaliq Urdu', serif;
+        font-family: 'Smooch','cursive';
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        font-family: 'Amiri', serif;
+        font-family: 'Noto Nastaliq Urdu', serif;
+        font-family: 'Smooch','cursive';
+        font-weight: lighter;
+        display: inline-block;
+   
+    }
+    nav a:hover{
+        background-color: white;
+        color: lightskyblue;
+        height: 100%;
+        width: 100%;
+    
+    }
+    nav li{
+        display: inline-block;
+        line-height: 100px;
+        width: 180px;
+        background-color: #00000000;
+        text-align: center;
+    
+    }
+    #log1{
+        float: left;
+        line-height: 100px;
+        padding: 0 30px;
+    
+    }
+    #log{
+        height: 100%;
+        border-radius: 50%;
+        float: right;
+    }
+    main{
+        width: 100%;
+        height: 450px;
+        background-color: rgba(55, 125, 255, 0.39);
+         border-top: 4px solid white;
+       
+    
+    
+    }
+    aside{
+       background-color: white;
+        height: 100%;
+        width: 40%;
+        font-family: 'Amiri', serif;
+        font-family: 'Noto Nastaliq Urdu', serif;
+        font-family: 'Smooch','cursive';
+        font-size: 40px;
+        text-align: center;
+        float: left;
+        
+    
+    }
+    #article{
+        width: 60%;
+        height: 450px;
+        float: right;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    #box{
+         width: 400px;
+         height: 220px;
+         background-color: white;
+         position: absolute;
+         top: 42%;
+         left: 42%;
+         transform: translate(-50px , -50px);
+         text-align: center;
+         padding: 20px;
+       
+   
+        
+    }
+    #box h1{
+        padding: 20px 10px;
+        border-bottom: 10px solid blueviolet;
+    
+    }
+    #mohamed{
+       
+        font-family: 'Lemonada', 'cursive';
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #border{
+    
+        padding: 40px 0px;
+        border-bottom: 2px solid black ;
+      }
+      #icons{
+        border-bottom: 2px double black;
+      }
+    
+      #icons img{
+        width: 45px;
+        margin: 10px;
+        padding: 5px ;
+       
+    }
+    #icons img:hover{
+        width: 55px;
+        border-bottom: 2px solid black;
+    }
+@media only screen and (max-width:1332px) and (min-width:280px){
+    header{
+        width: 100%;
+        background-color: black;
+        height: auto;
+    }
+    #logobox{
+        width: 100%;
+        text-align: center;
+    }
+    #log1{
+        float: none;
+        bottom: 50px;
+    }
+    #log{
+        float: none;
+        height: 200px;
+    }
+    span a{
+        text-decoration: none;
+    }
+    nav{
+        width: 100%;
+        
+    }
+    aside{
+        width: 100%;
+    }
+    main{
+        width: auto;
+        height: 250px;
+    }
+    #article{
+        width: 100%;
+        height: 30px;
+       
+    }
+    #box{
+     justify-content: center;
+     align-content: center;
+     width: 25%;
+
+    }
+    #border{
+        padding: 5px 0px;
+
+    }
+    #box h1{
+        border: none;
+    }
+    
+
+
+
+    
+}
+
+
+ 
+
+
+
